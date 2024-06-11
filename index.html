@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website hochladen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Website hochladen</h1>
+    <form id="uploadForm">
+        <label for="nameInput">Name für das Repository:</label>
+        <input type="text" id="nameInput" required>
+        <label for="fileInput">Wähle deine Website-Dateien aus:</label>
+        <input type="file" id="fileInput" accept=".html, .css, .js, .png, .jpg, .jpeg" multiple>
+        <button type="submit">Hochladen</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
